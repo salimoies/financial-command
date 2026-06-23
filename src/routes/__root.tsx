@@ -44,9 +44,17 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1, viewport-fit=cover" },
-      { title: "مركز القيادة المالية" },
+      { title: "money-talk" },
       { name: "description", content: "مركز القيادة المالية الشخصي — تتبع راتبك والتزاماتك وديونك" },
       { name: "theme-color", content: "#0a0e1a" },
+      { property: "og:title", content: "money-talk" },
+      { name: "twitter:title", content: "money-talk" },
+      { property: "og:description", content: "مركز القيادة المالية الشخصي — تتبع راتبك والتزاماتك وديونك" },
+      { name: "twitter:description", content: "مركز القيادة المالية الشخصي — تتبع راتبك والتزاماتك وديونك" },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/9cd039f2-8c95-4eb3-9a95-6e6e891a7fce/id-preview-cff5e407--618ba9a8-4755-4fb0-8ae4-3e71512a5d26.lovable.app-1782183017265.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/9cd039f2-8c95-4eb3-9a95-6e6e891a7fce/id-preview-cff5e407--618ba9a8-4755-4fb0-8ae4-3e71512a5d26.lovable.app-1782183017265.png" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:type", content: "website" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
